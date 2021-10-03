@@ -5,7 +5,7 @@ export default function Infos() {
     <Flex align="center" justify="space-between">
       <Flex directio="column" justify="center" align={["flex-start"]}>
         <Heading>femte</Heading>
-        <Text></Text>
+        <Text>land</Text>
       </Flex>
     </Flex>
   );
