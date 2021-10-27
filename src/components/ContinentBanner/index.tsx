@@ -10,6 +10,8 @@ export default function ContinentBanner() {
       bgImage="url(/bannereu.png)"
       bgPosition="center"
       bgRepeat="no-repeat"
+      bgSize="cover"
+      align="center"
     ></Flex>
   );
 }
