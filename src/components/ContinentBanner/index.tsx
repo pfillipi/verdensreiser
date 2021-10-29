@@ -12,6 +12,7 @@ export default function ContinentBanner() {
       bgRepeat="no-repeat"
       bgSize="cover"
       align="center"
+      justify={["center", "center", "start"]}
     ></Flex>
   );
 }
