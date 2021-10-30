@@ -5,6 +5,7 @@ export default function Continent() {
   return (
     <Flex direction="column">
       <Header />
+      <ContinentBanner />
     </Flex>
   );
 }
