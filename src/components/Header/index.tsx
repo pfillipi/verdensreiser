@@ -24,7 +24,7 @@ export default function Header() {
         w="100%"
         maxW="1160px"
         alignItems="center"
-        templateColumn="repeat(3, 1fr)"
+        templateColumns="repeat(3, 1fr)"
         justifyContent="center"
       >
         {notHomePage && (
