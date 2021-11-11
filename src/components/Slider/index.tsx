@@ -50,7 +50,11 @@ export default function Slider() {
                 >
                   Europa
                 </Heading>
-                <Text fontWeight="bold" color="gray.300">
+                <Text
+                  fontWeight="bold"
+                  color="gray.300"
+                  fontSize={["0.8rem", "1"]}
+                >
                   Det eldste kontinent
                 </Text>
               </a>
