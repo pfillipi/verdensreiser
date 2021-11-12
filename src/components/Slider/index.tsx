@@ -53,7 +53,8 @@ export default function Slider() {
                 <Text
                   fontWeight="bold"
                   color="gray.300"
-                  fontSize={["0.8rem", "1"]}
+                  fontSize={["0.8rem", "1xl", "2xl"]}
+                  mt={["2", "4"]}
                 >
                   Det eldste kontinent
                 </Text>
