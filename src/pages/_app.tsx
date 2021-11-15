@@ -6,6 +6,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
+import "../styles/slider.scss";
+
 function App({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
