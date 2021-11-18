@@ -2,7 +2,7 @@ import { Flex, Heading } from "@chakra-ui/react";
 import Banner from "../components/Banner";
 import Characteristics from "../components/Characteristics";
 import Header from "../components/Header";
-import Separator from "../components/Separator/Separator";
+import Separator from "../components/Separator";
 
 export default function Home() {
   return (
