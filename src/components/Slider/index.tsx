@@ -1,12 +1,14 @@
-import { Flex } from "@chakra-ui/react";
+import { Flex, Heading, Text } from "@chakra-ui/react";
 import Link from "next/link";
 
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import SwiperCore, { Navigation, Pagination, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+SwiperCore.use([Navigation, Pagination, A11y]);
+
+// import "swiper/css";
+// import "swiper/css/navigation";
+// import "swiper/css/pagination";
 
 export default function Slider() {
   return (
@@ -27,8 +29,23 @@ export default function Slider() {
         style={{ width: "100%", flex: "1" }}
       >
         <SwiperSlide>
-          <Flex>
-            <Link href="/continent/europe"></Link>
+          <Flex
+            w="100%"
+            h="100%"
+            align="center"
+            direction="column"
+            bgImage="url(/europe.png)"
+            bgRepeat="no-repeat"
+            bgSize="cover"
+            textAlign="center"
+            bgPosition="center"
+          >
+            <Link href="/continent/europe">
+              <a href="">
+                <Heading>Europa</Heading>
+                <Text>Det eldste kontinentet</Text>
+              </a>
+            </Link>
           </Flex>
         </SwiperSlide>
       </Swiper>
