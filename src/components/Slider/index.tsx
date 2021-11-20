@@ -6,9 +6,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 SwiperCore.use([Navigation, Pagination, A11y]);
 
-// import "swiper/css";
-// import "swiper/css/navigation";
-// import "swiper/css/pagination";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 export default function Slider() {
   return (
@@ -43,7 +43,7 @@ export default function Slider() {
             <Link href="/continent/europe">
               <a href="">
                 <Heading>Europa</Heading>
-                <Text>Det eldste kontinentet</Text>
+                <Text>Det eldste kontinent</Text>
               </a>
             </Link>
           </Flex>
