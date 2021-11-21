@@ -83,7 +83,7 @@ export default function Slider() {
                   color="gray.100"
                   fontWeight="bold"
                 >
-                  Europa
+                  Amerika
                 </Heading>
                 <Text
                   fontWeight="bold"
