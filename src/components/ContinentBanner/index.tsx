@@ -7,6 +7,7 @@ export default function ContinentBanner() {
       h={["150px", "300px", "500px"]}
       px={["0", "0", "36"]}
       pt={["0", "0", "72"]}
+      bgImage="url(/bannereu.png)"
     ></Flex>
   );
 }
