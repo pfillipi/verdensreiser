@@ -8,6 +8,8 @@ export default function ContinentBanner() {
       px={["0", "0", "36"]}
       pt={["0", "0", "72"]}
       bgImage="url(/bannereu.png)"
+      bgPosition="center"
+      bgRepeat="no-repeat"
     ></Flex>
   );
 }
