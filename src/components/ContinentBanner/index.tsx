@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/react";
+import { Flex, Heading } from "@chakra-ui/react";
 
 export default function ContinentBanner() {
   return (
@@ -13,6 +13,15 @@ export default function ContinentBanner() {
       bgSize="cover"
       align="center"
       justify={["center", "center", "flex-start"]}
-    ></Flex>
+    >
+      <Heading
+        textAlign={["center", "left"]}
+        fontSize={["1.75rem", "5xl"]}
+        color="gray.100"
+        fontWeight="500"
+      >
+        Europa
+      </Heading>
+    </Flex>
   );
 }
