@@ -1,3 +1,1 @@
-export default function Infos {
-  
-}
+export default function Infos() {}
