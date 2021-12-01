@@ -17,6 +17,7 @@ export default function Content() {
         øst av vannskillet til Uralfjellene, Uralfjellene, Det Kaspiske hav,
         Kaukasus og det sørøstlige Svartehavet.
       </Text>
+      <Infos />
     </Grid>
   );
 }
