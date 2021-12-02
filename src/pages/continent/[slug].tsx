@@ -1,4 +1,5 @@
 import { Flex } from "@chakra-ui/react";
+import Content from "../../components/Content";
 import ContinentBanner from "../../components/ContinentBanner";
 import Header from "../../components/Header";
 
