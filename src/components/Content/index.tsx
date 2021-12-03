@@ -7,7 +7,7 @@ export default function Content() {
       gatp={[5, 10, 16, 20]}
       my={["8", "20"]}
     >
-      <Text>
+      <Text fontSize={["lg", "xl", "2xl"]}>
         Etter konvensjon er Europa et av de seks kontinentene i verden. Europa
         omfatter den vestlige halvøya Eurasia og er generelt atskilt fra Asia i
         øst av vannskillet til Uralfjellene, Uralfjellene, Det Kaspiske hav,
