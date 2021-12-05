@@ -8,7 +8,9 @@ export default function Infos() {
         justify="center"
         align={["flex-start", "flex-start", "center"]}
       >
-        <Heading fontSize={["2xl", "5xl"]}>femte</Heading>
+        <Heading fontSize={["2xl", "5xl"]} color="yellow.400" fontWeight="bold">
+          femte
+        </Heading>
         <Text>land</Text>
       </Flex>
     </Flex>
