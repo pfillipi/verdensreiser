@@ -65,7 +65,7 @@ export default function Infos() {
               </span>
             </PopoverTrigger>
           </Popover>
-          <PopoverContent bg="gray.700">
+          <PopoverContent bg="gray.700" color="yellow.400">
             <PopoverArrow bg="gray.700" />
             <PopoverCloseButton />
             <PopoverBody fontWidth="400" fontSize="lg">
