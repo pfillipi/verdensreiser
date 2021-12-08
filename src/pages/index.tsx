@@ -19,9 +19,9 @@ export default function Home() {
         mb={["5", "14"]}
         fontSize={["lg", "3xl", "4xl"]}
       >
-        Her gå vi?
+        Hvor skal vi?
         <br />
-        Så velg ditt kontinent.
+        Vennlingst velg et kontinent.
       </Heading>
 
       <Slider />

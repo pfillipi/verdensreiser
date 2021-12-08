@@ -56,7 +56,7 @@ export default function Slider() {
                   fontSize={["0.8rem", "1xl", "2xl"]}
                   mt={["2", "4"]}
                 >
-                  Det eldste kontinent
+                  Det gamle kontinentet
                 </Text>
               </a>
             </Link>
@@ -91,7 +91,7 @@ export default function Slider() {
                   fontSize={["0.8rem", "1xl", "2xl"]}
                   mt={["2", "4"]}
                 >
-                  Det eldste kontinent
+                  Den nye verden
                 </Text>
               </a>
             </Link>
