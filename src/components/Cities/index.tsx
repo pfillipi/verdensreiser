@@ -11,9 +11,9 @@ export default function Cities() {
         gap={["20px", "45px"]}
         alignItems="center"
         justifyContent="center"
-        px={}
+        px={["30px", "0"]}
       >
-        <City />
+        {/* <City /> */}
       </Grid>
     </>
   );
