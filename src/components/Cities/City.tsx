@@ -1,5 +1,9 @@
-import { Box } from "@chakra-ui/layout";
+import { Box, Image } from "@chakra-ui/react";
 
 export default function City() {
-  return <Box></Box>;
+  return (
+    <Box>
+      <Image />
+    </Box>
+  );
 }

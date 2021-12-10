@@ -13,7 +13,7 @@ export default function Cities() {
         justifyContent="center"
         px={["30px", "0"]}
       >
-        {/* <City /> */}
+        <City />
       </Grid>
     </>
   );
