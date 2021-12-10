@@ -1,4 +1,9 @@
 import { Grid, Heading } from "@chakra-ui/react";
+import London from "./London";
+import Paris from "./Paris";
+import Rome from "./Rome";
+import Prague from "./Prague";
+import Amsterdam from "./Amsterdam";
 
 export default function Cities() {
   return (
@@ -13,7 +18,11 @@ export default function Cities() {
         justifyContent="center"
         px={["30px", "0"]}
       >
-        <City />
+        <London />
+        <Paris />
+        <Rome />
+        <Prague />
+        <Amsterdam />
       </Grid>
     </>
   );
